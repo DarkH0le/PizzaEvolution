@@ -8,16 +8,14 @@ public class Burger {
      String name;
      Float price;
      Map<Integer,String> ingredients = new HashMap<>();
-     Boolean ready = false;
 
-    public float delirver() {
+    public float deliver() {
         System.out.println("Boxed and delivered");
-        ready = true;
         return this.price;
     }
-    @Override
-    public String toString() {
-        return "Burger{" +
+
+    public String getInfoBurger() {
+        return getClass().getSimpleName() + "{" +
                 "name='" + name + '\'' +
                 ", price=" + price +
                 ", ingredients=" + ingredients +

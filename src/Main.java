@@ -12,7 +12,7 @@ public class Main {
         switch (pizza) {
             case 1:
                 CheesBurger cheesBurger = new CheesBurger();
-                System.out.println("Total:" + cheesBurger.delirver() + " You order a:" + cheesBurger.toString());
+                System.out.println("Total:" + cheesBurger.deliver() + " You order was a:" + cheesBurger.getInfoBurger());
                 break;
             case 2:
                 //Peppreoni pepperoni = new Pepperoni();
