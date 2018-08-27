@@ -19,5 +19,5 @@ Learn Design Patterns: Strategy, Factory.
 ## More Stuff
 
 UML:
-![UML](PizzaEvolution/blob/FirstEvolution/UML/FirstEvolution.png)
+![UML](/UML/FirstEvolution.png)
 	
