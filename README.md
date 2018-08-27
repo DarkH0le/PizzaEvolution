@@ -19,5 +19,6 @@ Learn Design Patterns: Strategy, Factory.
 ## More Stuff
 
 UML:
+
 ![UML](/UML/FirstEvolution.png)
 	
