@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.darkh0le.burger.ChickenBurger</OriginalElement>
+  <nodes>
+    <node x="259.5" y="190.0">com.darkh0le.burger.CheesBurger</node>
+    <node x="369.0" y="0.0">com.darkh0le.burger.Burger</node>
+    <node x="236.0" y="291.0">Main</node>
+  </nodes>
+  <notes>
+    <note x="0.0" y="48.0">
+      <node>com.darkh0le.burger.CheesBurger</node>
+      <value>This class is made just for set a ordered list \nof ingredients, set the name and the price too.</value>
+      <edge>
+        <point x="-36.75" y="-25.5" />
+        <point x="296.25" y="165.0" />
+        <point x="174.5" y="165.0" />
+        <point x="0.0" y="22.0" />
+      </edge>
+    </note>
+  </notes>
+  <edges>
+    <edge source="com.darkh0le.burger.CheesBurger" target="com.darkh0le.burger.Burger">
+      <point x="36.75" y="-25.5" />
+      <point x="369.75" y="165.0" />
+      <point x="491.5" y="165.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="Main" target="com.darkh0le.burger.CheesBurger">
+      <point x="48.5" y="-36.5" />
+      <point x="381.5" y="266.0" />
+      <point x="369.75" y="266.0" />
+      <point x="36.75" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="157.5" y="182.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

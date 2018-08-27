@@ -9,6 +9,11 @@ public class Main {
                 "2.- Ranch");
         Scanner sc = new Scanner(System.in);
         Integer pizza = sc.nextInt();
+        orderPizza(pizza);
+
+    }
+
+    public static void orderPizza(Integer pizza) {
         switch (pizza) {
             case 1:
                 CheesBurger cheesBurger = new CheesBurger();
@@ -22,6 +27,5 @@ public class Main {
                 System.out.println("No such burger");
                 break;
         }
-
     }
 }
