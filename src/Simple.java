@@ -1,0 +1,40 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+import java.util.List;
+
+import java.util.ArrayList;
+/**
+ * 
+ *
+ * @author Profesor
+ */
+public class Simple extends Burger {
+     
+    @Override
+    List<String> getElementsToBeGrilled() {
+        List<String> elements = new ArrayList<>();
+        elements.add("Steak");
+        return elements;
+    }
+
+    @Override
+    void add() {
+        this.ingredients.add("Bottom bread");
+        this.ingredients.add("Upper bread");
+        this.ingredients.add("Steak");
+        
+    }
+    
+    @Override
+    List<Integer> assemble(){
+        List<Integer> order = new ArrayList<>();
+        order.add(0);
+        order.add(2);
+        order.add(1);
+        return order;
+    }
+}
