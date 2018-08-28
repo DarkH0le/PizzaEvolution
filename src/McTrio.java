@@ -13,11 +13,24 @@ import java.util.List;
  */
 public class McTrio extends Burger {
 
-   @Override
+    @Override
     List<String> getElementsToBeGrilled() {
         List<String> elements = new ArrayList<>();
         elements.add("Steak");
-        elements.add("Steak");
+        return elements;
+    }
+
+    @Override
+    List<String> getVeggies() {
+        List<String> elements = new ArrayList<>();
+        elements.add("Lechugaaa");
+        return elements;
+    }
+
+    @Override
+    List<String> getSausage() {
+        List<String> elements = new ArrayList<>();
+        elements.add("Ranch");
         return elements;
     }
 
@@ -26,8 +39,8 @@ public class McTrio extends Burger {
         this.ingredients.add("Bottom bread");
         this.ingredients.add("Upper bread");
         this.ingredients.add("Steak");
-         this.ingredients.add("Steak"); 
-         this.ingredients.add("Middle bread");
+        this.ingredients.add("Steak");
+        this.ingredients.add("Middle bread");
     }
     
     @Override

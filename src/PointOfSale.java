@@ -12,11 +12,19 @@ public class PointOfSale {
 
     
     public static void main(String []args){
-    
-            
-    BurgerImpl burger = new BurgerImpl(new McTrio());
-    burger.prepare();
-    burger.deliver();
+
+//    BurgerImpl burger = new BurgerImpl(new McTrio());
+//    burger.prepare();
+//    burger.deliver();
+        String burgername = "algo";
+        switch (burgername) {
+            case "McTrio":
+                Burger newBurger = new McTrio();
+                break;
+            default:
+                break;
+        }
+
     }
     
 }

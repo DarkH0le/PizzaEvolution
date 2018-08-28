@@ -1,3 +1,4 @@
+/*
 import com.darkh0le.burger.CheesBurger;
 
 import java.util.Scanner;
@@ -29,3 +30,4 @@ public class Main {
         }
     }
 }
+*/
